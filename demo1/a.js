@@ -6,17 +6,17 @@
 */
 define([],function(){
 
-    return "module a";
+    return "file a";
 })
 /*下面的代码运行正常*/
 // define("a",[],function(){
 
-//     return "module a";
+//     return "file a";
 // })
 
 /*下面的代码不能达到预期效果,需要path配置，console.log(c) 为 undefined*/
 // define("d",[],function(){
 
-//     return "module a";
+//     return "file a";
 // })
 
